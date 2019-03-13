@@ -84,22 +84,72 @@ extract($_GET);
 <section class="contact-area section-gap" id="contact">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="menu-content pb-30 col-lg-8">
+            <div class="menu-content col-lg-8">
                 <div class="title text-center">
-                    <h1 class="mb-10">Confirm your order</h1>
+                    <h1>Confirm your order</h1>
                 </div>
             </div>
         </div>
-        <form class="form-area mt-60" id="myForm" action="mail.php" method="post" class="contact-form text-right">
-            <div class="row">
-                <div class="col-lg-12">
-                    <label for="plan">Plan</label>
-                    <select name="plan" id="plan" class="common-input mb-20 form-control">
-                        <option value="Team">Team</option>
-                        <option value="Office">Office</option>
-                        <option value="Enterprise">Enterprise</option>
-                    </select>
+        <!-- Start price Area -->
+        <section class="price-area pb-10 pt-20" id="pricing">
+            <div class="">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-price">
+                            <div class="top-sec d-flex justify-content-between <?php if ($order==1) echo 'orange-bg' ?>">
+                                <div class="top-left">
+                                    <h4 class="<?php if ($order==1) echo 'text-white' ?>">Team</h4>
+                                    <p>For the <br>individuals</p>
+                                </div>
+                                <div class="top-right">
+                                    <h1 class="<?php if ($order==1) echo 'text-white' ?>">€50</h1>
+                                </div>
+                            </div>
+                            <div class="end-sec">
+                                <a href="confirmOrder.php?order=1" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-price">
+                            <div class="top-sec d-flex justify-content-between <?php if ($order==2) echo 'orange-bg' ?>">
+                                <div class="top-left">
+                                    <h4 class="<?php if ($order==2) echo 'text-white' ?>">Office</h4>
+                                    <p>For the <br>small Company</p>
+                                </div>
+                                <div class="top-right">
+                                    <h1 class="<?php if ($order==2) echo 'text-white' ?>">€100</h1>
+                                </div>
+                            </div>
+                            <div class="end-sec">
+                                <a href="confirmOrder.php?order=2" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-price">
+                            <div class="top-sec d-flex justify-content-between <?php if ($order==3) echo 'orange-bg' ?>">
+                                <div class="top-left">
+                                    <h4 class="<?php if ($order==3) echo 'text-white' ?>">Enterprise</h4>
+                                    <p>For the <br>large Company</p>
+                                </div>
+                                <div class="top-right">
+                                    <h1 class="<?php if ($order==3) echo 'text-white' ?>">€200</h1>
+                                </div>
+                            </div>
+                            <div class="end-sec">
+                                <a href="confirmOrder.php?order=3" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+        </section>
+        <!-- End price Area -->
+        <form class="form-area" id="myForm" action="#" method="post" class="contact-form text-right">
+
+            <div class="row">
                 <div class="col-lg-6">
                     <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
                     <input name="comp_name" placeholder="Enter your company name" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
@@ -107,7 +157,7 @@ extract($_GET);
                 </div>
                 <div class="col-lg-6">
                     <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-                    <input name="comp_email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+                    <input name="comp_email" placeholder="Enter your company email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
                     <input name="comp_street" placeholder="Enter your company postal address" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
                 </div>
 

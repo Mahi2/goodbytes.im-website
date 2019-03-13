@@ -2299,6 +2299,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
 }
 
+.orange-bg {
+  background-color: orange;
+  color: white;
+}
+
 .banner-area2 {
   background: url(../img/header-bg2.jpg) center;
   background-size: cover;
