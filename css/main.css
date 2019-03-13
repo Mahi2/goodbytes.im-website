@@ -2301,7 +2301,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-area2 {
   background: url(../img/header-bg2.jpg) center;
-  background-size: auto;
+  background-size: cover;
 }
 
 @media (max-width: 767.98px) {
