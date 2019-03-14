@@ -148,17 +148,20 @@ extract($_GET);
         </section>
         <!-- End price Area -->
         <form class="form-area" id="myForm" action="#" method="post" class="contact-form text-right">
-
             <div class="row">
                 <div class="col-lg-6">
                     <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
-                    <input name="comp_name" placeholder="Enter your company name" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
-                    <input name="comp_street" placeholder="Enter your company street" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
+                    <input name="comp_name" placeholder="Company name" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
+                    <input name="comp_street" placeholder="Street" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
+                    <input name="comp_bill1" placeholder="Billing Address Line 1" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
+                    <input name="comp_zipCode" placeholder="Zip Code" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
                 </div>
                 <div class="col-lg-6">
                     <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-                    <input name="comp_email" placeholder="Enter your company email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-                    <input name="comp_street" placeholder="Enter your company postal address" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
+                    <input name="comp_city" placeholder="City" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+                    <input name="comp_street" placeholder="Postal address" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
+                    <input name="comp_bill2" placeholder="Billing Address Line 2" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
+                    <input name="comp_country" placeholder="Country" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" class="common-input mb-20 form-control" required="" type="text">
                 </div>
 
                 <div class="col-lg-12 form-group">
