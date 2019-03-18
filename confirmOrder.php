@@ -165,7 +165,7 @@ extract($_GET);
                 </div>
 
                 <div class="col-lg-12 form-group">
-                    <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Comments" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+                    <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Comments" onfocus="this.placeholder = 'Comments'" onblur="this.placeholder = 'Comments'" required=""></textarea>
                 </div>
                 <div class="col-lg-12 text-center">
                     <button class="primary-btn mt-20">Submit<span class="lnr lnr-arrow-right"></span></button>
