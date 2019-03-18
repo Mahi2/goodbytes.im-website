@@ -20,6 +20,8 @@
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= 'X-MSMail-Priority: Normal' . "\r\n";
+    $headers .= 'X-Priority: 3' . "\r\n";
 
     if (@mail($to, $subject, $message, $headers))
     {
