@@ -147,7 +147,7 @@ extract($_GET);
             </div>
         </section>
         <!-- End price Area -->
-        <form class="form-area" id="myForm" action="#" method="post" class="contact-form text-right">
+        <form class="form-area" id="myForm" action="mail2.php" method="post" class="contact-form text-right">
             <div class="row">
                 <div class="col-lg-6">
                     <input name="name" placeholder="Enter your name" onfocus="this.placeholder = 'Enter your name'" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
@@ -168,6 +168,7 @@ extract($_GET);
                     <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Comments" onfocus="this.placeholder = 'Comments'" onblur="this.placeholder = 'Comments'" required=""></textarea>
                 </div>
                 <div class="col-lg-12 text-center">
+                    <input type="text" name="order" value="<?= $order ?>" hidden>
                     <button class="primary-btn mt-20">Submit<span class="lnr lnr-arrow-right"></span></button>
                     <div class="mt-10 alert-msg"></div>
                 </div>

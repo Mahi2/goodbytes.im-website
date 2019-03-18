@@ -9,11 +9,9 @@
     //$to = 'guus@goodbytes.nl';
     $to = 'antdepadoue@gmail.com';
     $firstname = $_POST["name"];
-    $email= $_POST["email"];
+    $email= strip_tags($_POST["email"]);
     $message= $_POST["message"];
     $subject= $_POST["subject"];
-
-
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
