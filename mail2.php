@@ -13,14 +13,17 @@
         $plan = "Team";
         $price = "50";
         $description = "For the individuals";
+        $subject = 'Order for Team';
     } elseif ($order==2){
         $plan = "Office";
         $price = "100";
         $description = "For the small Company";
+        $subject = 'Order for Office';
     } elseif ($order==3){
         $plan = "Enterprise";
         $price = "200";
         $description = "For the large Company";
+        $subject = 'Order for Enterprise';
     }
 
 
@@ -120,7 +123,7 @@
                     <td>Zip Code : '.$comp_zipCode.'</td>
                 </tr>
             </table>
-            Comments <br>'.$comments.'
+            Comments <br>'.$message.'
         </div>
     </div>
 </body>
