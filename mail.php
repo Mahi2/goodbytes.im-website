@@ -6,8 +6,8 @@
  * Time: 9:20 PM
  */
 
-    //$to = 'guus@goodbytes.nl';
-    $to = 'antdepadoue@gmail.com';
+    $to = 'guus@goodbytes.nl';
+    //$to = 'antdepadoue@gmail.com';
     $firstname = $_POST["name"];
     $email= strip_tags($_POST["email"]);
     $message= $_POST["message"];
