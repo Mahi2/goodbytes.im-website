@@ -13,17 +13,17 @@
         $plan = "Team";
         $price = "50";
         $description = "For the individuals";
-        $subject = 'Order for Team';
+        $subject = 'Order for Team Plan';
     } elseif ($order==2){
         $plan = "Office";
         $price = "100";
         $description = "For the small Company";
-        $subject = 'Order for Office';
+        $subject = 'Order for Office Plan';
     } elseif ($order==3){
         $plan = "Enterprise";
         $price = "200";
         $description = "For the large Company";
-        $subject = 'Order for Enterprise';
+        $subject = 'Order for Enterprise Plan';
     }
 
 
