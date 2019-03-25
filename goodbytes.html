@@ -26,12 +26,19 @@
     <!--[if lt IE 9]>
     <script src="views/js/html5shiv.js"></script>
     <script src="views/js/respond.min.js"></script><![endif]--><!--[if IE 9 ]>
-    <script src="views/js/ie-matchmedia.js"></script><![endif]--></head>
+    <script src="views/js/ie-matchmedia.js"></script><![endif]-->
+    <style>
+        .fixed {
+            position: fixed;
+            top:0; left:0;
+            width: 100%;
+        }
+    </style>
+</head>
 <body>
 <div class="page-loader"><b class="spinner"></b></div>
 <div id="page" data-linkscroll="y">
-    <header class="main-head"
-            style="background-image: none; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+    <header class="main-head sticky" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
         <div class="container">
             <div class="row gt0 align-items-center head-row" data-rgen-sm="h-reset">
                 <div class="col-md-3 pos-rel"><a class="nav-handle" data-nav=".m-content" data-navopen="pe-7s-more"
@@ -316,5 +323,14 @@
 <script src="views/lib/stellar/jquery.stellar.min.js" type="text/javascript"></script>
 <script src="views/js/enquire.min.js" type="text/javascript"></script>
 <script src="views/js/main.js"></script>
+<script>
+    $(window).scroll(function(){
+        var sticky = $('.sticky'),
+            scroll = $(window).scrollTop();
+
+        if (scroll >= 100) sticky.addClass('fixed');
+        else sticky.removeClass('fixed');
+    });
+</script>
 </body>
 </html>
