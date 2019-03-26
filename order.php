@@ -32,7 +32,7 @@ extract($_GET);
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
-                <a href="index-old.html">
+                <a href="index.html">
                     <img src="img/GoodBytes-Logo-Small.png" alt="" title="" width="100px" />
                 </a>
             </div>
