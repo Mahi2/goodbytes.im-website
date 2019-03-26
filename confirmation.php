@@ -38,8 +38,8 @@ else
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="offset-3 col-sm-6 text-center">
-    <img src="views/images/openfire-1.png" alt="" width="40%">
+<div class="col-sm-12 text-center">
+    <img src="views/images/openfire-1.png" alt="" width="30%">
     <h1 class="text-center">
         Your order for <strong style="color: #749a4f"><?= $plan ?></strong> have been submitted
     </h1>
