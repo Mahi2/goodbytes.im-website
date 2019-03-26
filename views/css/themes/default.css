@@ -770,7 +770,7 @@ h6,
 .txt-secondary,
 .typo-light .txt-secondary,
 .txt-secondary:hover {
-  color: #6cbc35;
+  color: #749a4f;
 }
 .txt-dark,
 .typo-light .txt-dark,
@@ -843,6 +843,10 @@ a.link-white {
 }
 .bg-primary {
   background-color: #fa5a00;
+}
+
+.bg-primary2 {
+  background-color: #749a4f;
 }
 .bg-secondary {
   background-color: #6cbc35;

@@ -32,15 +32,15 @@ extract($_GET);
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
-                <a href="index.html">
+                <a href="index-old.html">
                     <img src="img/GoodBytes-Logo-Small.png" alt="" title="" width="100px" />
                 </a>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#pricing">Pricing</a></li>
+                    <li class="menu-active"><a href="index.html#page">Home</a></li>
+                    <li><a href="index.html#features">Services</a></li>
+                    <li><a href="index.html#price">Pricing</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
