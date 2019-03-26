@@ -141,7 +141,7 @@
 
     if (@mail($to, $subject, $message, $headers))
     {
-        echo 'The message has been sent.';
+        header('Location:confirmation.php?order='.$order);
     }else{
         echo 'failed';
     }

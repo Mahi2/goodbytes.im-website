@@ -106,7 +106,7 @@ extract($_GET);
                                 </div>
                             </div>
                             <div class="end-sec">
-                                <a href="confirmOrder.php?order=1" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
+                                <a href="order.php?order=1" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ extract($_GET);
                                 </div>
                             </div>
                             <div class="end-sec">
-                                <a href="confirmOrder.php?order=2" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
+                                <a href="order.php?order=2" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ extract($_GET);
                                 </div>
                             </div>
                             <div class="end-sec">
-                                <a href="confirmOrder.php?order=3" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
+                                <a href="order.php?order=3" class="primary-btn price-btn">Choose<span class="lnr lnr-arrow-right"></span></a>
                             </div>
                         </div>
                     </div>
