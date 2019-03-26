@@ -158,7 +158,7 @@ extract($_GET);
                 </div>
                 <div class="col-lg-6">
                     <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = 'Enter email address'" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-                    <input name="comp_city" placeholder="City" onfocus="this.placeholder = 'City'" onblur="this.placeholder = 'City'" class="common-input mb-20 form-control" required="" type="email">
+                    <input name="comp_city" placeholder="City" onfocus="this.placeholder = 'City'" onblur="this.placeholder = 'City'" class="common-input mb-20 form-control" required="" type="text">
                     <input name="comp_street" placeholder="Postal address" onfocus="this.placeholder = 'Postal address'" onblur="this.placeholder = 'Postal address'" class="common-input mb-20 form-control" required="" type="text">
                     <input name="comp_bill2" placeholder="Billing Address Line 2" onfocus="this.placeholder = 'Billing Address Line 2'" onblur="this.placeholder = 'Billing Address Line 2'" class="common-input mb-20 form-control" required="" type="text">
                     <input name="comp_country" placeholder="Country" onfocus="this.placeholder = 'Country'" onblur="this.placeholder = 'Country'" class="common-input mb-20 form-control" required="" type="text">

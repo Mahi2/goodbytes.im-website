@@ -6,8 +6,8 @@
  * Time: 9:20 PM
  */
     extract($_POST);
-    $to = 'guus@goodbytes.nl';
-    //$to = 'antdepadoue@gmail.com';
+    //$to = 'guus@goodbytes.nl';
+    $to = 'antdepadoue@gmail.com';
 
     if ($order==1){
         $plan = "Team";
