@@ -157,14 +157,14 @@ extract($_GET);
                 </div>
 
                 <div class="col-lg-6">
-                    <input name="comp_bill2" placeholder="Billing Address Line 2" onfocus="this.placeholder = 'Billing Address Line 2'" onblur="this.placeholder = 'Billing Address Line 2'" class="common-input mb-20 form-control" required="" type="text">
+                    <input name="comp_bill2" placeholder="Billing Address Line 2 (optional)" onfocus="this.placeholder = 'Billing Address Line 2 (optional)'" onblur="this.placeholder = 'Billing Address Line 2 (optional)'" class="common-input mb-20 form-control" type="text">
                     <input name="comp_city" placeholder="City" onfocus="this.placeholder = 'City'" onblur="this.placeholder = 'City'" class="common-input mb-20 form-control" required="" type="text">
                     <input name="comp_zipCode" placeholder="Postal Code" onfocus="this.placeholder = 'Postal Code'" onblur="this.placeholder = 'Postal Code'" class="common-input mb-20 form-control" required="" type="text">
                     <input name="comp_country" placeholder="Country" onfocus="this.placeholder = 'Country'" onblur="this.placeholder = 'Country'" class="common-input mb-20 form-control" required="" type="text">
                 </div>
 
                 <div class="col-lg-12 form-group">
-                    <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Comments" onfocus="this.placeholder = 'Comments'" onblur="this.placeholder = 'Comments'" required=""></textarea>
+                    <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Comments (optional)" onfocus="this.placeholder = 'Comments (optional)'" onblur="this.placeholder = 'Comments (optional)'"></textarea>
                 </div>
                 <div class="col-lg-12 text-center">
                     <input type="text" name="order" value="<?= $order ?>" hidden>
