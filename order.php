@@ -156,14 +156,11 @@ extract($_GET);
         <!-- End price Area -->
         <form class="form-area" id="myForm" action="mail2.php" method="post" class="contact-form text-right">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <input name="name" placeholder="Enter your name" onfocus="this.placeholder = 'Enter your name'" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
                     <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = 'Enter email address'" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
                     <input name="comp_name" placeholder="Company name" onfocus="this.placeholder = 'Company name'" onblur="this.placeholder = 'Company name'" class="common-input mb-20 form-control" required="" type="text">
                     <input name="comp_bill1" placeholder="Billing Address Line 1" onfocus="this.placeholder = 'Billing Address Line 1'" onblur="this.placeholder = 'Billing Address Line 1'" class="common-input mb-20 form-control" required="" type="text">
-                </div>
-
-                <div class="col-lg-6">
                     <input name="comp_bill2" placeholder="Billing Address Line 2 (optional)" onfocus="this.placeholder = 'Billing Address Line 2 (optional)'" onblur="this.placeholder = 'Billing Address Line 2 (optional)'" class="common-input mb-20 form-control" type="text">
                     <input name="comp_city" placeholder="City" onfocus="this.placeholder = 'City'" onblur="this.placeholder = 'City'" class="common-input mb-20 form-control" required="" type="text">
                     <input name="comp_zipCode" placeholder="Postal Code" onfocus="this.placeholder = 'Postal Code'" onblur="this.placeholder = 'Postal Code'" class="common-input mb-20 form-control" required="" type="text">
