@@ -11,6 +11,7 @@ if (isset($_POST) && sizeof($_POST) > 0) {
 	}
 	
 	$email_address = $_POST['email']['val'];
+	$email_website = 'website@goodbytes.im';
 	$email_subject = $_POST['subject']['val'];
 	$email_body    = "You have received a new message. <br/>".
 				  	 "Here are the details: <br/><br/>";
@@ -18,12 +19,12 @@ if (isset($_POST) && sizeof($_POST) > 0) {
 				  	 	$email_body .= "<strong>" . $value['label'] . ": </strong> " . $value['val'] . "<br/><br/>";
 				  	 }
     $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= "Reply-To: " . $email . "\r\n";
+    $headers .= "Reply-To: " . $email_address . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'X-MSMail-Priority: Normal' . "\r\n";
     $headers .= 'X-Priority: 3' . "\r\n";
-	$headers = "From:<$email_address>\n";
+	$headers = "From:<$email_website>\n";
 	$headers.= "Content-Type:text/html; charset=UTF-8";
 
 
