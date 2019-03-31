@@ -10,11 +10,12 @@
     $to = 'antdepadoue@gmail.com';
     $firstname = $_POST["name"];
     $email= strip_tags($_POST["email"]);
+    $email_website= 'website@goodbytes.im';
     $message= $_POST["message"];
     $subject= $_POST["subject"];
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+    $headers .= "From: " . $email_website . "\r\n"; // Sender's E-mail
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
