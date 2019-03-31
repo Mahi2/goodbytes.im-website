@@ -7,6 +7,7 @@
  */
     extract($_POST);
     $to = 'guus@goodbytes.nl';
+    $email_website = 'website@goodbytes.im';
     //$to = 'antdepadoue@gmail.com';
 
     if ($order==1){
@@ -132,7 +133,7 @@
 
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+    $headers .= "From: " . $email_website . "\r\n"; // Sender's E-mail
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
